@@ -1,3 +1,5 @@
+
+
 #link{
 text-decoration: none;
 color: #8d8c8c;
@@ -5,9 +7,68 @@ color: #8d8c8c;
 #link:hover{
   text-decoration: underline;
 }
+#button{
+  background-color:#8d8c8c34;
+  color: #000;
+  font-size: 14px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+}
+#button:hover{
+  cursor: pointer; 
+  border: 2px solid transparent;
+}
 
 .search-section{
   border: 2px solid #000;
+  margin: 30px;
+  padding: 20px;
+}
+.search-input {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 8px 10px;
+  width: 684px;
+}
+.input-container:hover{
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  border-color: rgba(223,225,229,0);
+
+}
+.search-field {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-left: 26px;
+  margin-right: 16px;
+}
+
+.search-icon {
+  height: 16px;
+
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+}
+
+.mic-icon,
+.camera-icon {
+  height: 16px;
+  margin-left: 10px;
 }
 
 .bottom-left {
@@ -22,4 +83,10 @@ color: #8d8c8c;
 .bottom-left .menu-item {
   display: inline-block;
   margin-right: 10px;
+}
+
+.footer{
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #000;
 }

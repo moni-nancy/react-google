@@ -1,10 +1,10 @@
 import React from 'react'
-import Button from './Button';
+
 
 export default function Location() {
   return (
     <div>
-      <Button title={'Nigeria'}/>
+      <p style={{color:'#8d8c8c'}}>Nigeria</p>
     </div>
   )
 }
