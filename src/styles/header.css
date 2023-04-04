@@ -1,13 +1,27 @@
 
 .app-header{
+  box-sizing: border-box;
   border: 2px solid #333;
   display: flex;
   justify-content: flex-end;
-  padding:10px;
-  gap: 8px;
+  padding: 20px;
+  
 }
 
 .app-header-menu{
+  border: 2px solid #333;
   display: flex;
-  gap: 4px;
+  justify-content: flex-end;
+  padding-right: 36px;
+  
+}
+
+.apps-icon{
+  margin: 5px;
+}
+
+.apps-icon:hover{
+  cursor: pointer;
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  border-color: rgba(223,225,229,0);
 }

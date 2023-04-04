@@ -9,15 +9,19 @@ color: #8d8c8c;
 }
 #button{
   background-color:#8d8c8c34;
-  color: #000;
+  color: #3c4043;
   font-size: 14px;
   padding: 12px 24px;
   border: none;
   border-radius: 4px;
 }
+
 #button:hover{
   cursor: pointer; 
-  border: 2px solid transparent;
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
 
 .search-section{
@@ -70,6 +74,36 @@ color: #8d8c8c;
   height: 16px;
   margin-left: 10px;
 }
+
+
+#search-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+  gap: 13px;
+}
+
+.link{
+  color: #4d5156;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 26px; 
+}
+.link span{
+cursor: pointer;
+color:#1a0dab;
+padding: 0 3px;
+}
+
+.link span:hover{
+  text-decoration: underline;
+  
+}
+
+
 
 .bottom-left {
   display: flex;

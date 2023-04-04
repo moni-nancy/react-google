@@ -10,9 +10,11 @@ const Header = () => {
       <div className='app-header-menu'>
        <MenuItem title={'Gmail'} href={'https://gmail.com'}/>
        <MenuItem title={'Images'} href={'https://images.google.com'} />
-       </div>
-       <AppsIcon/>
+       <div className="app-header-others">
+        <AppsIcon/>
        <Avatar/>
+       </div>
+       </div>
     </div>
   );
 };

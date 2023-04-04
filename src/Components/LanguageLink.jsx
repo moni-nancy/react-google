@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../styles/googleapp.css';
 
 export default function LanguageLink() {
   return (

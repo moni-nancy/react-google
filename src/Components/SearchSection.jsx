@@ -10,8 +10,11 @@ const SearchSection = () => {
     <div className="search-section">
       <Logo/>
       <SearchBar/>
-      <Button title={'Google Search'}/>
-      <Button title={'Feeling lucky'}/>
+      <div id="search-button">
+        <Button title={'Google Search'}/>
+       <Button title={"I'm Feeling Lucky"}/>
+      </div>
+      
       <LanguageLink/>
     </div>
   )
