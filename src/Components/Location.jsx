@@ -1,10 +1,13 @@
 import React from 'react'
+import '../styles/googleapp.css';
+
+
 
 
 export default function Location() {
   return (
     <div>
-      <p style={{color:'#8d8c8c'}}>Nigeria</p>
+      <p id='location'>Nigeria</p>
     </div>
   )
 }

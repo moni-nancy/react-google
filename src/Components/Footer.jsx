@@ -9,7 +9,7 @@ const Footer = () => {
     
     <div className='footer' >
       <Location/>
-       <div style={{ display: 'flex', justifyContent:'center',alignItems:'center', gap: '20px' }}>
+       <div style={{ display: 'flex', justifyContent:'center',alignItems:'center', gap: '13rem', padding:' 10px 20px'}}>
       <BottomLeftMenu/>
       <FooterText/>
       <BottomRightMenu/>

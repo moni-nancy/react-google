@@ -1,5 +1,8 @@
 import React from 'react'
 import Carbon from '../images/carbon.png';
+import '../styles/googleapp.css';
+
+
 export default function FooterText() {
   return (
     <div>
