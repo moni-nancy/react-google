@@ -1,0 +1,25 @@
+#link{
+text-decoration: none;
+color: #8d8c8c;
+}
+#link:hover{
+  text-decoration: underline;
+}
+
+.search-section{
+  border: 2px solid #000;
+}
+
+.bottom-left {
+  display: flex;
+}
+
+.bottom-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.bottom-left .menu-item {
+  display: inline-block;
+  margin-right: 10px;
+}

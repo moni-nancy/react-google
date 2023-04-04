@@ -1,7 +1,18 @@
+import Location from './Location';
+import BottomLeftMenu from './BottomLeftMenu';
+import FooterText from './FooterText';
+import BottomRightMenu from './BottomRightMenu';
+
 const Footer = () => {
   return(
+    
     <div>
-      Here is the Footer component
+      <div>
+        <Location/>
+      </div>
+      <BottomLeftMenu/>
+      <FooterText/>
+      <BottomRightMenu/>
     </div>
   )
 }

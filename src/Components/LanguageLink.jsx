@@ -1,15 +1,12 @@
 import React from 'react'
-import MenuItem from './MenuItem';
+
 
 export default function LanguageLink() {
   return (
     <div>
-      <p>Google offered:</p>
-       <MenuItem text={'Hausa'} />
-       <MenuItem text={'Igbo'}  />
-       <MenuItem text={'EdeYoruba'}  />
-       <MenuItem text={'NigerianPidgin'} />
-      
+      <p className='link'>Google offered: 
+      <span>Hausa</span> <span>Igbo</span>  <span>Ede Yoruba</span> <span>Nigerian Pidgin</span>
+      </p>
     </div>
   );
 }

@@ -8,11 +8,11 @@ const Header = () => {
   return(
     <div className='app-header'>
       <div className='app-header-menu'>
-       <MenuItem title={'Gmail'}/>
-       <MenuItem title={'Images'} />
-      </div>
-      <AppsIcon/>
-    <Avatar/>
+       <MenuItem title={'Gmail'} href={'https://gmail.com'}/>
+       <MenuItem title={'Images'} href={'https://images.google.com'} />
+       </div>
+       <AppsIcon/>
+       <Avatar/>
     </div>
   );
 };

@@ -1,9 +1,15 @@
 import React from 'react';
- 
-export default function MenuItem(){
+import '../styles/googleapp.css';
+
+
+export default function MenuItem(props){
+  
+  
   return (
     <div>
-      <a href="">Gmail</a>
+      <a id='link' href={props.href} style={ props.style}>
+        {props.title}
+        </a>
     </div>
-  )
+  );
 }

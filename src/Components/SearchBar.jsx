@@ -7,11 +7,11 @@ import Camera from '../images/camera (2).svg';
 export default function SearchBar() {
   return (
     <div>
-      <form>
+      <form className='search-input'>
       <input type="text" name='search'/>
-     <img src={SearchIcon} alt="an avatar of me" style={{height: '26px'}} />
-      <img src={Mic} alt="an avatar of me" style={{height: '26px'}} />
-      <img src={Camera} alt="an avatar of me" style={{height: '26px'}} />
+     <img src={SearchIcon} alt="search" style={{height: '16px'}} />
+      <img src={Mic} alt="mic" style={{height: '16px'}} />
+      <img src={Camera} alt="camera" style={{height: '16px'}} />
       </form>
     </div>
    
